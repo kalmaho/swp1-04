@@ -13,8 +13,8 @@ def application(environ, start_response):
         x = a+b
         y = a*b
     else:
-        x = 0
-        y = 0
+        x = -1
+        y = -1
     response_body = html%{
          'sum':x,
          'mul':y,
